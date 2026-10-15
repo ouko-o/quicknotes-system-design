@@ -1,4 +1,4 @@
-```css
+
 * {
     box-sizing: border-box;
 }
@@ -115,4 +115,13 @@ textarea {
         padding: 16px;
     }
 }
-```
+
+.delete-btn {
+    margin-top: 8px;
+    background: #b42318;
+}
+
+.delete-btn:hover:not(:disabled) {
+    background: #8f1b13;
+}
+
